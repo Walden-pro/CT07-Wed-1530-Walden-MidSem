@@ -4,7 +4,7 @@ function setup(){
 }
 function draw(){
     if(mouse.presses("left")){
-        new Sprite(50,50,mouse());
+        new Sprite(50,50,mousepointer());
         fill(random(0,225))
     }
 }
