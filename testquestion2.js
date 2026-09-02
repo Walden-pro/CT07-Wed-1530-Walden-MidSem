@@ -1,6 +1,7 @@
 function setup(){
     new Canvas(600,400);
     world.gravity.y = 10;
+    fill(230)
     let base = new Sprite(300, 380, 600, 40);
     base.collider = 'static';
 }
