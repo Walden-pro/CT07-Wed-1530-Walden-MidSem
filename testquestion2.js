@@ -5,7 +5,7 @@ function setup(){
     base.collider = 'static';
 }
 function draw(){
-background(220)
+background(0)
     if (mouse.presses("left")){
         
         fill(random(0,225));
