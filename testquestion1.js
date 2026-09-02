@@ -6,7 +6,7 @@ function setup(){
 }
 function draw(){
     if(mouse.presses("left")){
-        spawnball()""
+        spawnball();
        
     }
 }
