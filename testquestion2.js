@@ -8,7 +8,7 @@ function draw(){
     if (mouse.presses("left")){
         fill(random(0,225));
         let ball = new Sprite(mouse.x,mouse.y,40);
-        ball.remove()
+        ball.remove();
         ball.bounciness = 0.5;
         ball.drag = 0.4;
     }
