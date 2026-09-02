@@ -6,7 +6,7 @@ function setup(){
 }
 function draw(){
     if (mouse.presses("left")){
-        let background = nCanvas(600,400);
+        let background = new Canvas(600,400);
         fill(random(0,225));
         
         let ball = new Sprite(mouse.x,mouse.y,40);
