@@ -8,7 +8,6 @@ function draw(){
     if(mouse.presses("left")){
         fill(random(0,225));
         ball = new Sprite(mouse.x,mouse.y,50);
-
         
     }
 }
