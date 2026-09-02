@@ -5,7 +5,7 @@ function setup(){
 }
 function draw(){
     if (mouse.presses("left")){
-        b
+        ball = new Sprite(mouse.x,mouse.y)
     }
 }
 // function spawnball(){
