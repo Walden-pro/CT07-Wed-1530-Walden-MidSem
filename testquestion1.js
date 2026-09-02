@@ -6,7 +6,7 @@ function setup(){
 function draw(){
     if(mouse.presses("left")){
         ball = new Sprite(mouse.x,mouse.y,50);
-        ball.vel.y = 10
+        
         fill(random(0,225));
         // ball.remove();
         
