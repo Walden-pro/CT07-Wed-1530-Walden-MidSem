@@ -2,6 +2,6 @@ function setup(){
     new canvas(600,400);
 }
 function draw(){
-    if(mouse.presse )
+    if(mouse.presses())
     new Sprite(50,50,50);
 }
