@@ -1,4 +1,7 @@
-
+function setup(){
+    new Canvas(600,400);
+    
+}
 // function spawnball(){
 //     fill(random(0,225));
 //     new Canvas(600,400);
