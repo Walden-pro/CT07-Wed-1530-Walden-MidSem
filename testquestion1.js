@@ -1,4 +1,5 @@
 let ball;
+ball = new Sprite(mouse.x,mouse.y,50);
 function setup(){
     new Canvas(600,400);
     world.gravity.y = 10;
