@@ -12,3 +12,6 @@ function draw(){
         ball.collider = 'dynamic';
     }
 }
+function spawnball(){
+    
+}
