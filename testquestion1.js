@@ -3,9 +3,10 @@ function setup(){
 }
 function draw(){
     if(mouse.presses("down")){
+        new Sprite(50,50,50);
+        fill(
+            
+        )
 
-
-        
     }
-    new Sprite(50,50,50);
 }
