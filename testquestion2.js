@@ -1,7 +1,7 @@
 function setup(){
     new Canvas(600,400);
     world.gravity.y = 10;
-    let base = new Sprite
+    let base = new Sprite(0,500)
 }
 function draw(){
     if (mouse.presses("left")){
