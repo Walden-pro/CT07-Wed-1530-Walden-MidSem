@@ -1,5 +1,5 @@
 function setup(){
-    new canvas(600,400);
+    new Canvas(600,400);
 }
 function draw(){
     if(mouse.presses("down")){
