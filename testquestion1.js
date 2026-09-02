@@ -5,7 +5,8 @@ function setup(){
 }
 function draw(){
     if (mouse.presses("left")){
-        ball = new Sprite(mouse.x,mouse.y)
+        ball = new Sprite(mouse.x,mouse.y,40);
+        
     }
 }
 // function spawnball(){
