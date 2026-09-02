@@ -8,6 +8,6 @@ function draw(){
         ball = new Sprite(mouse.x,mouse.y,50);
         fill(random(0,225));
         ball.remove();
-        ball = new Sprite(mouse.x,mouse.y,50);
+        
     }
 }
