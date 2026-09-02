@@ -6,12 +6,12 @@ function setup(){
 }
 function draw(){
     if(mouse.presses("left")){
-        fill(random(0,225));
-        ball = new Sprite(mouse.x,mouse.y,50);
-        ball.sleeping = false;
-        ball.collider = 'dynamic';
+        
+       
     }
 }
 function spawnball(){
-    
+    ball = new Sprite(mouse.x,mouse.y,50);
+    ball.sleeping = false;
+    ball.collider = 'dynamic';
 }
