@@ -1,7 +1,7 @@
 function setup(){
     new Canvas(600,400);
     world.gravity.y = 10;
-    let base = new Sprite(0,900,1500,900);
+    let base = new Sprite(0,600,1500,600);
     base.collider = 'static';
 }
 function draw(){
