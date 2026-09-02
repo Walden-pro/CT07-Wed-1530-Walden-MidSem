@@ -7,7 +7,6 @@ function setup(){
 function draw(){
     if(mouse.presses("left")){
         spawnball();
-       
     }
 }
 function spawnball(){
@@ -15,4 +14,5 @@ function spawnball(){
     ball = new Sprite(mouse.x,mouse.y,50);
     ball.sleeping = false;
     ball.collider = 'dynamic';
+    ball.vel.y = 1
 }
